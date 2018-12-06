@@ -105,9 +105,9 @@ public class TulsiOption: Equatable, CustomStringConvertible {
   }
 
   /// Key under which this option's project-level value is stored.
-  static let ProjectValueKey = "p"
+  public static let ProjectValueKey = "p"
   /// Key under which this option's target-level values are stored.
-  static let TargetValuesKey = "t"
+  public static let TargetValuesKey = "t"
   typealias PersistenceType = [String: AnyObject]
 
   init(displayName: String,
